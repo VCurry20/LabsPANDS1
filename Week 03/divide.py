@@ -5,7 +5,7 @@ x = int(input (" Enter your first number: "))
 y = int( input(" Enter the number you want to divide by: "))
 
 # // gives you the int division
-Answer = int(x//y)
+Answer = int(x/y)
 
 # % gives the remainder
 Remainder = x%y

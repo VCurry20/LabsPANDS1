@@ -13,5 +13,3 @@ print("I have eaten {} burritos".format(str(Amount)))
 # 8 - eggs is valid because it is letters - 100 is numbers and cannot make a variable name starting with numbers
 
 # 9 -  int() / float() / str()
-
-

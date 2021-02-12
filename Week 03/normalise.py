@@ -1,6 +1,7 @@
 # This program reads in a string and strips including any leading or trailing spaces
 # It also converts all the letters to lower case
 # This program also outputs the length of the original string and also the normalised one
+# basically tidies up a string input and outputs in a tidy format - format decided by you - eg all lowercase
 
 # set variables
 rawstring = input( "Please enter a string of text: ")
