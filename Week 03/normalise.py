@@ -3,6 +3,10 @@
 # This program also outputs the length of the original string and also the normalised one
 # basically tidies up a string input and outputs in a tidy format - format decided by you - eg all lowercase
 
+# enter string -        sTring SEntence    
+# normailsed string shoutr be; string sentence
+# reduced output from - for example - 57 characters to 11
+
 # set variables
 rawstring = input( "Please enter a string of text: ")
 normalisedString = rawstring.strip().lower()
