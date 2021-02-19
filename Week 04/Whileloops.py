@@ -1,4 +1,4 @@
-# Lecture 4.2 While 
+# Lecture 4.2 While loops 
 # Monkey See Monkey Do from Lecture
 
 # Whlie Conditions:
@@ -8,15 +8,16 @@
 # COUNTER CONTROLLED LOOP
 # you set the parameters and it keeps going until it reaches the parameters
 # Count = 0, while count is less than 10 print count, numbers in incredments of 1
-count = 0
+
+count = 0  # need to initialise it - so give it a starting place
 while count < 10 :
     print (count)
-    count += 1
+    count += 1   ## if this wasnt here it would print out 0 forever
 
 
 print ( "Example 2")
 
-count = 10   # state @ 10
+count = 10   # start @ 10
 while count >= 0:  # while count is greater or = 0
     print (count)
     count -= 1  # go in reverse  ( note the minus )
