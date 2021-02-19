@@ -7,32 +7,31 @@ if True: # condition
 
 
 if False: # condition
-    print("condition is true") #statement
-# nothing will print from this 
-
+    print("condition is also true") #statement
+# --- nothing will print from this 
+# it checks down the program and does not find a false value so it prints nothing
 
 
 
 # Showing progression of if values and their uses
 if 2 == 2:
-    print ( "yes the world is sane")
+    print ( "yes the world is sane") # this will print because the state is true
 
 if 2 == 3:
-    print ( "yes the world is sane")  # nothing will print here - there is no option given if 2 is not equal to three 
-
-
+    print ( "yes the world is also sane")  # nothing will print here because the state is false- there is no option given if 2 is not equal to three 
 
 
 # state with two different outcome options
+# this gives an outcome for false results rater that python having no output
 
-if 2 != 2: # 2 is not equal to 2 - prints option 2
+if 2 != 2: # 2 is not equal to 2 - prints option 2 - basically you are looking for the false value ( 2 is not equal to 2)
     print("I hope this is not being displayed!!!")
 else:
     print("2 is not equal to 2 - false")
 
 
-if 2 != 3: # 2 is not equal to 3 - prints option 1
-    print("I hope this is not being displayed!!!")
+if 2 != 3: # 2 is not equal to 3 - prints option 1 - because this is a true value
+    print("This is a true value and will print out!!!")
 else:
     print("2 is not equal to 2 - false")
 

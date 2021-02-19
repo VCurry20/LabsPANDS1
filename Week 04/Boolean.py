@@ -11,4 +11,9 @@ print (isAlive)
 # checking is a value even - isEven is a boolean
 a = 99
 isEven = a % 2 == 0  # put in brackets to make it clearer - isEven = ((a % 2 ) == 0)
-print ( "is",a, "even?", isEven)  # this evaluates
+print ( "is",a, "even?", isEven)  # this evaluates   # commas is another version of prints - can use instead of format
+
+
+
+
+
