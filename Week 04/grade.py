@@ -1,4 +1,4 @@
-# Lab Week 4 Flow Control if Elif and Else
+# Lab Q2. Week 4 Flow Control if Elif and Else
 
 # Write a Program that reads in a students percertage mark and prints out a grade
 # The program should check that the percentage is valid
@@ -12,7 +12,7 @@
 # Enter the percentage 67 
 # Result Merit 2
 
-percentage = float(input("enter the percentage: "))
+percentage = float(input("enter your percentage: "))
 # print ( percentage)
 
 # becareful with ands and ors

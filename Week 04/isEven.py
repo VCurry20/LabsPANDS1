@@ -1,5 +1,5 @@
-# Lab Week 4 Flow Control if Elif and Else
-# Program where the user is asked to enter and number and the return advises if the input is even or odd
+# Lab Q1. Week 4 Flow Control if Elif and Else
+# Program where the user is asked to enter an number and the return advises if the input is even or odd
 
 # Enter number - 67
 # Return:  67 is an odd number
