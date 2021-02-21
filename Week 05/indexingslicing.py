@@ -19,7 +19,7 @@ print(aList[2])  #true
 # there is no alist[6] - there is only 0 - 5
 
 # to get the last element in a list - all of these work the same way
-print(aList[6 - 1])  
+print(aList[6 - 1])  # len of list -1 
 print(aList[5])
 print(aList[len(aList)-1]) 
 print(aList[-1])
@@ -30,12 +30,14 @@ print(aList)
 
 
 # Slicing information out of the list
-print(aList [1 :4])  # element 1 - 4
-print(aList [:4])    # element beginning of list 0 - 4
+print(aList [1 :4])  # element 1 - 4 (will not incl the 4th element)
+print(aList [:4])    # element beginning of list 0 - 4  (will not incl the 4th element)
 print(aList [1 :])   # element 1 - end of list
 
 print(aList [::2])  # every second - from the beginning to the end - jump 2
 print(aList [::-1]) # reverses the list - from beginning to the end - power of minus 1- negative one
+
+# there are also methods - on w3schools which can do some of these
 
 
 
