@@ -28,3 +28,25 @@ for candidate in range (2, 101):
         primes.append(candidate)
 
 print ("This is the second go", primes)
+
+
+# completing this with variables
+# changing the code and making is more slimline
+# we don't really need to check every number - we can check if the number is divisible by a prime number
+# this will also shorten the amount of time the code takes to run
+
+primes = []
+upTo = 100
+
+for candidate in range (2, upTo):
+    #print (candidate)
+    isPrime = True
+    for divisor in primes: # only need to check if is divisible by prime number
+        if (candidate % divisor == 0):
+            isPrime = False
+            break
+    
+    if isPrime:
+        primes.append(candidate)
+
+print ("This is the third go", primes)
