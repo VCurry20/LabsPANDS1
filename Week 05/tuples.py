@@ -27,5 +27,5 @@ print(tupleexample[1])
 tupledata = (11, 12, 13, 14)
 a, b, c, d = tupledata
 
-print (a)
+print (c)
 print (d)

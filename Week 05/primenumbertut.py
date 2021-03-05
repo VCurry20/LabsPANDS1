@@ -3,9 +3,9 @@
 # advise - before you start writing code - write out what you need to do and break it down in steps - then write code
 
 # the purpose of this  code is to:
-# Test of the numbers between 2 - 100 are prime
-# prime numbers are no divisible by other numbers / integers
-# program will tesst the numbers range 2 - 100 to see if they can be divided
+# Test if the numbers between 2 - 100 are prime ; which are prime where are not
+# prime numbers are not divisible by other numbers / integers
+# program will test the numbers range 2 - 100 to see if they can be divided
 
 # test 
 for candidate in range (2, 101):  ## give full names for variables  - go ck 100 - range needs to go to 101
