@@ -1,5 +1,6 @@
 # Week 6 Functions
 # Lecture 1
+
 # primes - script for generating primes using a function
 # this is the follow on program from primes.py
 # this does not easily amend from primes.py 

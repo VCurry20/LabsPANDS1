@@ -1,5 +1,6 @@
 # Week 6 Functions 
 # Lecture 1 
+
 # making a function and how to use them
 # Use functions to break you code into manageable chunks and functions can be reused through out the program once defined
 # When making a function think what is going into the function and the results will be or what you want them to be

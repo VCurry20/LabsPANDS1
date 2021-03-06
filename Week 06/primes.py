@@ -1,5 +1,6 @@
 # Week 6 Functions
 # Lecture 1
+
 # primes - script for generating primes
 
 # This is the first way to do this - it returns both a list of the numbers and also of the prime numbers in the list of numbers
