@@ -13,3 +13,27 @@
 # just showing how parts of the code are seperately wrote and then brought together
 # breaking the program down makes it easier to work out the correct approach
 
+## write the doadd function
+# read in the students name
+# read in the modules and grades (will be in the next part)
+# test this function to create ad DICT
+# Add to this list
+# Test it
+
+students = []
+def readmodules ():
+    return []
+
+def doAdd (students) :
+    currentstudent = {}
+    currentstudent ["name"] = input ("enter student's name:")
+    currentstudent ["modules"] = readmodules ()
+    students.append (currentstudent)
+
+#test
+
+doAdd(students)
+
+doAdd(students)
+
+print(students)
