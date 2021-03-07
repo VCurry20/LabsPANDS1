@@ -1,0 +1,11 @@
+This is a file I created from the first part of the script in the file.py
+
+I will # it out in file.py so I can see it again and it will not create the file each time I run it
+
+with open (".\week 07.txt", "w") as f:
+    print ("create a file")
+
+week 07.txt - this became the file name
+.\ - this means this directory
+
+
