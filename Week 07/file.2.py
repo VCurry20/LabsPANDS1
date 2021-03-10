@@ -12,3 +12,8 @@
 # or print (" this is another way to do the above", file=f)
 
 """" The above code is in "wt" write mode - so it will keep overwriting on the file - to append us "at" """""
+
+
+#####
+### we have completed all these files within the same directory week 7 - to get out of this you would write the following """"""
+# with open ( "../ and then the name of your file", "wt") as if   
