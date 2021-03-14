@@ -1,7 +1,7 @@
-# Write a program that outputs whether or not today is a weekday
+# Write a program that outputs whether or not today is a weekday with an associated message
 
 # Week 5
-# Task 4
+# Task 5
 
 # Veronica Curry
 # Student ID: G00074924
@@ -21,3 +21,29 @@
 
 # if when x do a and if not do b
 
+
+
+import datetime
+
+weekday = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+ 
+def whichdayisit (weekday):
+    for days in range (0,4):
+        print ("Yes, unfortunately it's a weekday")
+
+    else:
+        print ("It is the weekend, yay!")
+
+
+day = input ("Please enter a day of the week: ")  
+
+                                        
+          
+
+
+
+# Reference 1: https://pythontic.com/datetime/date/weekday
+# Reference 2: https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
+# Reference 3: https://docs.python.org/3/library/datetime.html#datetime.date.weekday
+# Reference 4: https://gist.github.com/patrickbeeson/e7e848e3398f287c86ea
+# Reference 5: https://www.youtube.com/watch?v=nLaq7phtsUU
