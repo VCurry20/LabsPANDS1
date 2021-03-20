@@ -25,25 +25,25 @@
 
 import datetime
 
-weekday = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+weekdays = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
  
 def whichdayisit (weekday):
-    for days in range (0,4):
-        print ("Yes, unfortunately it's a weekday")
+    
+    if weekday in range (0,4):
+        return ("Yes, unfortunately it's a weekday")
 
     else:
-        print ("It is the weekend, yay!")
+        return ("It is the weekend, yay!")
 
 
 day = input ("Please enter a day of the week: ")  
+print (whichdayisit (day))
 
-                                        
-          
-
-
+         
 
 # Reference 1: https://pythontic.com/datetime/date/weekday
 # Reference 2: https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
 # Reference 3: https://docs.python.org/3/library/datetime.html#datetime.date.weekday
 # Reference 4: https://gist.github.com/patrickbeeson/e7e848e3398f287c86ea
 # Reference 5: https://www.youtube.com/watch?v=nLaq7phtsUU
+# Reference 6: https://realpython.com/python-return-statement/
