@@ -25,11 +25,11 @@
 
 import datetime
 
-weekdays = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
  
 def whichdayisit (weekday):
     
-    if weekday in range (0,4):
+    for days in range (0,4):
         return ("Yes, unfortunately it's a weekday")
 
     else:
@@ -38,7 +38,6 @@ def whichdayisit (weekday):
 
 day = input ("Please enter a day of the week: ")  
 print (whichdayisit (day))
-
          
 
 # Reference 1: https://pythontic.com/datetime/date/weekday
