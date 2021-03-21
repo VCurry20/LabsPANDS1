@@ -30,7 +30,7 @@ with open ("Textfile", "rt") as f:
 # read out part of the file in a sentence
 with open ("Textfile", "rt") as f:
     for line in f:
-        print ("from txt file: ", line)
+        print ("from txt file: ", line) 
 
 
 # reads out the text from the file but also clears away the extra spaces
