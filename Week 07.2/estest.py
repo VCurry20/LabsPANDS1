@@ -12,9 +12,15 @@
 # Capital / Not Capital isnt specified
 
 ## with open("GreatExpectations.TXT","r") as f:
-##  data = f.read (e)
-## print (count(data))    ## or is it len?
+## data = f.read (e)
+## print (count(data))   
 
+#file = open ("greatex.txt", encoding ="utf8")
+
+with open ("greatex.txt", "r") as f:
+    data = f.read()
+    freq = data.count("e")
+    print (freq)
 
 
 
