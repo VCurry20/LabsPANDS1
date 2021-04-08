@@ -10,15 +10,14 @@ ypoints = xpoints * xpoints         # set y axis - xpoints squared
 
 
 
-plt.plot(xpoints,ypoints)           # plot the x + y points
-
-plt.plot(xpoints,ypoints, label = "xsquared")                          # plot line x,y label is xquard
+plt.plot(xpoints, ypoints, label = "xsquared")                          # plot line x,y label is xquard
 plt.plot(xpoints, xpoints, label = "Straight", color= "blue" )         # plot line x,x lable straight, line colour blue
 plt.legend()                                                           # add a legend
 
-randompoints = np.random.randint(1,5000, 100)                          # set random point variable with random numbers ( 1 - 5000 ( 100 of them))
-plt.scatter (xpoints,randompoints, label = "random", color = "yellow") # scatter plot, xpoints*randompoints, random label added, colour Yellow)
+randompoints = np.random.randint(1, 100, 100)                          # set random point variable with random numbers ( 1 - 5000 ( 100 of them))
+plt.scatter(xpoints, randompoints, label = "random") # scatter plot, xpoints*randompoints, random label added, colour Yellow)
 
 
 plt.savefig("Firstplot4.png")                                          # print out and save as 
+
 

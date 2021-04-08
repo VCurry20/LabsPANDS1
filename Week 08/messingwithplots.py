@@ -19,3 +19,5 @@ plt.plot(xpoints,ypoints)           # plot the x + y points
 ## to save in the file use the below"""
 
 plt.savefig("Firstplot.png")
+
+

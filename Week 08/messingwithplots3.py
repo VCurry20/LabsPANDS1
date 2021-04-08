@@ -10,7 +10,7 @@ ypoints = xpoints * xpoints         # set y axis - xpoints squared
 
 
 
-plt.plot(xpoints,ypoints)           # plot the x + y points
+#plt.plot(xpoints,ypoints)           # plot the x + y points
 
 plt.plot(xpoints,ypoints, label = "xsquared")                          # plot line x,y label is xquard
 plt.plot(xpoints, xpoints, label = "Straight", color= "blue" )         # plot line x,x lable straight, line colour blue
