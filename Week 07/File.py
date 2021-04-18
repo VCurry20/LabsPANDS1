@@ -8,7 +8,7 @@
 
 """ this works to create a file but cannot continue to rn it as it will continue to create files """
 
-#with open (".\week 07.txt", "w") as f:
+# with open (".\week 07.txt", "w") as f:
 #    print ("create a file")
 
 ## I could have used "a" or "x" instead of "w"
